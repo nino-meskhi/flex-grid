@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-auto-rows: 100px;
+    row-gap: 1em;
+    column-gap: 1em;
+    margin: 50px;
+}
+.box1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.background {
+    background-color: burlywood;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+}
+.flexcontainer {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: greenyellow;
+    padding: 20px;
+    gap: 10px 10px;
+}
+.flexbox {
+    background-color: cadetblue;
+    border: 2px solid firebrick;
+    padding: 50px;
+}
+.flexbox1 {
+    order: 5;
+}
+.container1 {
+    background-color: hotpink;
+}
+.linebreak {
+    width: 100%;
+}
+img {
+    float: left;
+}
+
